@@ -1,0 +1,300 @@
+
+
+body{
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+* {
+    text-align: right;
+    font-family: B Nazanin;
+}
+#a2:link{text-decoration:none;
+    color:white;
+    padding:3px 50px;}
+#a2:hover{
+    text-decoration: none;
+    background-color: #333;
+    color: black;
+}
+#a2:visited{
+    color: #a9a9a9;
+}
+#a2:active{
+    counter-reset: fffff0;
+}
+
+#p0{padding:15px 30px;
+    text-align:right;}
+#p1{
+    padding-top: 8px ;
+    padding-right: 20px;
+    text-align: right;
+}
+#p-1{
+    margin-top: 30px;
+}
+
+.h2{
+    margin-right: 10px;
+    color: darkslategrey;
+}
+
+#div1{
+    width:auto;
+    height:60px;
+    background-color:#949393;
+    border-collapse: collapse;
+} 
+#div2{
+    background-color: black;
+    width:auto;
+    height: 100px;
+    border-collapse: collapse;
+    margin-top:-2% ;
+}
+#div3{
+    background-color:transparent;
+    width: auto;
+    height: 500px;
+    border-collapse: collapse;
+}
+#div5{
+    width: 1290px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 1px 1px 10px darkgray,-1px -1px 10px gray;
+    border-radius: 5px;
+}
+
+#footer{
+    height:50px;
+    width:auto; 
+    border:transparent;	 
+    background-color:#333;
+    margin-top:20;
+    padding-right:10px;
+}
+
+
+.scrollSlider{
+    width: 1310px;
+    height: 400px;
+    margin: auto;
+    box-shadow: 1px 1px 10px darkgray,-1px -1px 10px gray;
+    border-radius: 5px;
+}
+.scrollSlider .headerScroll{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.scrollSlider .headerScroll .right{
+    width: 160px;
+    height: inherit;
+    float: right;
+    border-bottom: 1px solid red;
+}
+.scrollSlider .headerScroll .right h2{
+    text-align: right;
+    color: darkslategrey;
+    line-height: 20px;
+    font-size: 25px;
+    font-family: B Nazanin;
+}
+.scrollSlider .contentScroll{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.scrollSlider .contentScroll .nextScroll{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 1px 1px 5px lightgray,-1px -1px 5px lightgray;
+    z-index: 100;
+    cursor: pointer;
+    background-color: ivory;
+}
+.scrollSlider .contentScroll .nextScroll img{
+    width: 50px;
+    height: 50px;
+    transform: rotate(180deg);
+    margin-top: 25px;
+}
+.scrollSlider .contentScroll .prevScroll{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    border-radius: 5px 0 0 5px ;
+    box-shadow: 1px 1px 5px lightgray,-1px -1px 5px lightgray;
+    z-index: 100;
+    cursor: pointer;
+    background-color: ivory;
+}
+.scrollSlider .contentScroll .prevScroll img{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;    
+}
+.scrollSlider .contentScroll .main{
+    width: inherit;
+    height: inherit;
+    float: right;
+    margin-right: 0;
+    overflow: hidden;
+    position: relative;
+}
+.scrollSlider .contentScroll .main .div4 {
+    width: 2400px;
+    height: inherit;
+    box-sizing: border-box;
+    margin-top: 10px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.disable{
+    cursor: unset;
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+#ul{list-style-type:none;
+    padding-top: 20px;}
+      
+ #li1{float:right;}
+ 
+li a{display:inline-block;
+      color:white;
+      width:150px;
+      text-decoration:none;
+      padding:16px 5px;}
+#a0:hover{text-decoration:underline;
+      background-color:#666666;
+      color:black;}
+
+#form1{border:transparent;
+    padding-top: 30px ;
+    padding-right: 500px;}
+
+
+.demo-1 {
+    position:relative;
+    width:210px;
+    height:260px;
+    overflow:hidden;
+    float:right;
+    margin-top: 10px;
+    margin-right: 40px;
+    background-color:rgba(26,76,110,0.5);
+    padding: 5px 0 15px 0;
+    box-sizing: border-box;
+}
+
+.demo-1 p {
+    font-family:'Lato';
+    font-size:12px;
+    line-height:18px;
+    margin:0;
+    color:#fff;
+    padding: 3px 50px;
+    position:relative;
+    text-align: center;
+}
+
+.demo-1 a {
+    color: lightyellow;
+    font-size: 15px;
+    background-color: black;
+    text-decoration: none;
+}
+.demo-1 a:hover{
+    background-color: lightyellow;
+    color: rgb(15, 18, 20);
+}
+
+.effect img {
+    position:absolute;
+    margin:-15px 0;
+    right:0;
+    top:0;
+    cursor:pointer;
+    -webkit-transition:top .4s ease-in-out,right .4s ease-in-out;
+    -moz-transition:top .4s ease-in-out,right .4s ease-in-out;
+    -o-transition:top .4s ease-in-out,right .4s ease-in-out;
+    transition:top .4s ease-in-out,right .4s ease-in-out
+}
+.effect img.top:hover {
+    top:-230px;
+    right:-330px;
+    padding-bottom:200px;
+    padding-left:300px
+}
+
+
+.comment{
+    box-shadow: 1px 1px 10px rgb(153, 153, 172),-1px -1px 10px darkgray;
+    width:550px; 
+    margin: auto;
+    border:transparent;
+}
+.comment .commentes-item {
+    text-align: right;
+}
+.comment .commentes-item .username{
+    font-weight: bold;
+    font-size: 15px;
+}
+.comment .commentes-item .coment{
+    font-size: 14px;
+    padding-right: 5px 5px 0 0 ;
+    margin-top: 10px;
+}
+.comment  input{
+    font-family: Tahoma;
+}
+
+.comment  input[type=text]{
+    width: 80%;
+    text-align: center;
+    margin: 6px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+.comment input[type=submit]{
+    width: 20%;
+    text-align: center;
+    margin: 6px;
+    margin-right: 180px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.comment  input[type=submit]:hover{
+    background-color: black;
+    color: wheat;
+    cursor:pointer;
+}
+.comment  textarea{
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Tahoma;
+    border-radius: 2px;
+    border: 1px solid gray;
+    text-align: center;
+}
+

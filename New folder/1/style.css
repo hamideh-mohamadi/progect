@@ -1,0 +1,283 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    direction: rtl;
+    font-family: Tahoma;
+    font-size: 12px;
+    background-color: lightblue;
+    background: linear-gradient(darkblue 0px , whitesmoke 500px ,white 100%);
+}
+body a{
+    color: white;
+    text-decoration: none;
+}
+#wrapper{
+    padding: 5px;
+    margin:4px auto;
+    width: 1010px;
+    background-color: lightblue;
+    background: linear-gradient(white 0px , rgb(130,149,160) 500px , rgb(127,147,158) 100% );
+    border: 1px solid darkblue;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 0 black;
+}
+
+#header{
+    width: 1010px;
+    height: 140px;
+    background-color: blue;
+    background: radial-gradient(circle, orange 0 , darkblue 40%,orange 82%, darkblue 100%);
+    margin-bottom: 5px;
+    border-radius: 6px;
+    font-size: 100PX;
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 900px;
+    text-shadow: 5px 5px 5px  yellow ,-5px -5px 5px  yellow, -5px 5px 5px  yellow, 5px -5px 5px  yellow;
+}
+
+#nav{
+    width: 1004px;
+    height: 40px;
+    background-color: blanchedalmond;
+    background: linear-gradient(darkblue , darkgray);
+    margin: 3px 3px 10px 3px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px black;
+}
+
+ #menu{
+    font-size: 16px;
+    list-style: none;
+}
+#menu li{
+    float: right;
+
+}
+#menu li a{
+    display: block;
+    width: 251px ;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 7px;
+}
+#menu li a:hover{
+    background: linear-gradient(red , blue);
+}
+
+#main{
+    width: 1010px;
+    margin-bottom: 5px;
+    float: right;
+    border-radius: 5px;
+}
+#right{
+    background-color:rgb(60, 90, 100);
+    width: 220px;
+    float: right;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+#sidebar{
+    list-style-type: none;
+}
+    #sidebar > li > a { 
+        display: block;
+        height: 30px;
+        background: linear-gradient(blue,green);
+        background-color: rgb(115, 115, 155);
+        font-size: 18px;
+        font-weight: 600px;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 4px;
+    }
+    #sidebar > li > a:hover{
+        background-color: rgb(31, 99, 31);
+        background: linear-gradient(green,blue);
+        color: red;
+    }
+    #sidebar ul{
+        font-size: 14px;
+        list-style: square;
+        color: white;
+        margin-right: 25px;
+    }
+        #sidebar ul ul{
+            font-size: 12px;
+        }
+        #sidebar ul a{
+            padding-right: 4px;
+            border-radius: 6px;
+            display: block;
+            line-height: 25px;
+        }
+        #sidebar ul ul a{
+            height: 20px;
+        }
+        #sidebar ul a:hover{
+            background-color: maroon;
+        }
+#center{
+    width: 560px;
+    float: right;
+    border-radius: 5px;
+}
+.post{
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 2px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px 0 black;
+}
+.posttitle{
+    font-size: 18px;
+    background-color: cornflowerblue;
+    background: linear-gradient(darkgreen,darkblue);
+    padding: 4px 4px 20px 4px;
+    border-radius: 5px 5px 0 0;
+}
+.posttitle a:hover{
+    color: red;
+}
+.postdate{
+    font-size: 12px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 4px 4px 10px 4px;
+    background: linear-gradient(darkblue , darkgreen);
+}
+.content{
+    text-align: justify;
+    line-height: 250%;
+    background-color: white;
+    padding: 4px;
+}
+.postfooter{
+    background-color: blue;
+    background: linear-gradient(yellow,darkgreen,darkblue);
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    padding-right: 30px;
+}
+    .postfooter a{
+        text-align: center;
+        border-radius: 50px 50px 10px 10px / 25px 25px 10px 10px;
+        border: 1px solid whitesmoke;
+        display: block;
+        width: 160px;
+        background-color: red;
+        background: linear-gradient(darkred , red);
+        font-size: 16px;
+        padding: 5px;
+        transition-duration: 0.5s;
+    }
+        .postfooter a:hover{
+            border-radius: 10px 10px 50px 50px / 10px 10px 25px 25px;
+            transition-duration: 0.5s;
+        }
+#otherpage{
+    width: 546px;
+    float: right;
+    border: 1px solid yellow;
+    background-color: orange;
+    background: linear-gradient(orange , yellow);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+    #otherpage div{
+        float: right;
+        font-size: 16px;
+    }
+    #otherpage ul{
+        list-style-type: none;
+        font-size: 16px;
+    }
+    #otherpage  li{
+        float: right;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+        #otherpage li a{
+            text-align: center;
+            display: block;
+            width: 18px;
+            color: blue;
+            transition-duration: 0.5s
+        }
+        #otherpage li a:hover{
+            background-color: blue;
+            color: red;
+            transition-duration: 0.5s;
+            border-radius: 4px;
+
+        }
+#left{
+    width: 220px;
+    float: right;
+    margin-right: 5px;
+}
+.leftcontent{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.lefttitle{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: darkblue;
+    background: linear-gradient(darkblue,blue);
+    padding: 5px;
+}
+.leftbody{
+    line-height: 160%;
+    background-color: whitesmoke;
+    text-align: justify;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 0 0 5px 5px;
+}
+    .leftbody a{
+        color: black;
+    }
+        .leftbody a:hover{
+            color: red;
+        }
+    .leftbody hr{
+        height: 1px;
+        background-color: gray;
+        margin:5px 20px 5px 40px;
+    }
+.stats{
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 0 0 5px 5px;
+    font-size: 12px;
+}
+    .stats td{
+        padding-right: 10px;
+    }
+
+
+#footer{
+    width: 1000px;
+    height: 60px;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 14px;
+    background: linear-gradient(rgb(2, 2, 79),blue);
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 10px 0 black;
+    padding-top: 20px;
+    line-height: 200%;
+    clear: both;
+}

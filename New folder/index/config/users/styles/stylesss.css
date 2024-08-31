@@ -1,0 +1,184 @@
+body{
+    background-color: white;
+    margin: 0;
+    overflow-x: hidden;
+}
+* {
+    text-align: right;
+    font-family: B Nazanin;
+}
+#p1{
+    padding-top: 8px ;
+    padding-right: 20px;
+    text-align: right;
+}
+
+#div1{
+    width:auto;
+    height:60px;
+    background-color:#949393;
+    border-collapse: collapse;
+}
+
+#div2{
+    background-color: black;
+    width:auto;
+    height: 100px;
+    border-collapse: collapse;
+    margin-top:-2% ;
+}
+#div3{
+    background-color:transparent;
+    width: auto;
+    height: 100px;
+    border-collapse: collapse;
+}
+.div4{
+    width: 420px;
+    height: 360px;
+    box-shadow: 1px 1px 10px darkgray,-1px -1px 10px darkgray;
+    position: relative;
+    float:right;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 5px 0 15px 0;
+    box-sizing: border-box;
+    background-color: #dfdbdb;
+}
+.div5{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: right;
+    padding: 10px ;
+    box-sizing: border-box;
+}
+
+.search{
+    width: 420px;
+    height: 360px;
+    box-shadow: 1px 1px 10px darkgray,-1px -1px 10px darkgray;
+    position: relative;
+    float:right;
+    margin-top: 20px;
+    margin-right: 500px;
+    padding: 5px 0 15px 0;
+    box-sizing: border-box;
+    background-color: #dfdbdb;
+    
+}
+
+.search img{
+    width: 200px;
+    height: 300px;
+    float: right;
+    padding: 50px 10px;
+    margin-top: 0;
+}
+.search p{
+    text-align: left;
+    padding: 10px 30px;
+}
+
+.content{
+    width: 500px;
+    box-shadow: 1px 1px 10px darkgray,-1px -1px 10px darkgray;
+    position: relative;
+    float:right;
+    margin-top: 20px;
+    margin-right: 450px;
+    padding: 5px 0 15px 0;
+    box-sizing: border-box;
+    background-color: #dfdbdb;
+}
+.content input[type=submit]{
+    background-color: rgb(80, 85, 156);
+    width: 10%;
+    color: black;
+    padding: 5px;
+    margin-right: 45%;
+    font-family: Tahoma;
+    border: none;
+    border-radius:0 4px 0 4px ;
+}
+.content input[type=submit]:hover{
+    background-color: rgb(2, 2, 59);
+    color: white;
+    cursor: pointer;
+}
+
+.div4 img{
+    width: 200px;
+    height: 300px;
+    float: right;
+    padding: 50px 10px;
+    margin-top: 0;
+}
+.div4 p{
+    text-align: left;
+    padding: 10px 30px;
+}
+
+#ul{list-style-type:none;
+    padding-top: 20px;}
+      
+ #li1{float:right;}
+ 
+li a{display:block;
+      color:white;
+      width:150px;
+      text-decoration:none;
+      padding:16px 5px;}
+#a0:hover{text-decoration:underline;
+      background-color:#666666;
+      color:black;}
+
+#form1{border:transparent;
+    padding-top: 30px ;
+    padding-right: 500px;}
+
+
+
+.a1:link{
+    color: darkwheat;
+    text-decoration: none;
+}
+#footer{
+    height:50px;
+    width:auto; 
+    border:transparent;	 
+    background-color:#333;
+    margin-top: 400px;
+    padding-right:10px;
+}
+#p0{padding:15px 30px;
+    text-align:right;
+}
+#a2:link{text-decoration:none;
+    color:white;
+    padding:3px 50px;}
+#a2:hover{
+    text-decoration: none;
+    background-color: #333;
+    color: black;
+}
+#a2:visited{
+    color: #a9a9a9;
+}
+#a2:active{
+    counter-reset: fffff0;
+}
+#a3:link{text-decoration:none;
+    color:rgb(28, 57, 77);
+    padding:3px 50px;}
+#a3:hover{
+    text-decoration: none;
+    background-color: #333;
+    color: black;
+}
+#a3:visited{
+    color: #a9a9a9;
+}
+#a23:active{
+    counter-reset: fffff0;
+}

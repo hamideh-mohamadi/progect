@@ -1,0 +1,193 @@
+body{
+    direction: rtl;
+    font-family: tahoma;
+}
+
+
+#main{
+    width: 300px;
+    height: 130px;
+    background-color: rgba(194, 194, 194, 0.438);
+    margin: 200px auto;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+#main #register{
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    background-color: rgb(199, 197, 197);
+    border-radius: 3px;
+}
+#main #register input{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+#main #register textarea{
+    margin: 5px;
+    padding: 5px;
+    width: 200px;
+}
+#main #register input[type=submit]{    
+    width: 105px;
+    background-color: silver;
+    border-radius: 2px;
+}
+#main #register input[type=submit]:hover{
+    background-color: rgba(119, 155, 185, 0.438);
+    color: skyblue;
+    border: none;
+    cursor: pointer;
+}
+#div1{
+    width: 400px;
+    background-color: rgba(194, 194, 194, 0.438);
+    margin:200px auto;
+    border-radius: 3px;
+}
+
+#div1 h3{
+    text-align: center;
+    color: rgb(37, 37, 37);
+}
+#div1 .nav ul{
+    text-align: center;
+    float: right;
+}
+#div1 .nav ul li{
+    padding:2px 15px;
+    display: inline-block;
+    color: rgb(85, 90, 88);
+}
+#div1 .nav ul li a{
+    text-decoration: none;
+    color: rgb(85, 90, 88);
+    display: block;
+}
+
+#div1 .nav ul li a:hover{
+    background-color: lightblue;
+    color: darkcyan;
+}
+.div2 ul{
+    margin: auto;
+    width: 300px;
+    background-color: rgb(148, 148, 185);
+    text-align: center;
+    float: center;
+}
+
+.div2 ul li{
+    display: block;
+    margin: 5px;
+}
+.div2 ul li a{
+    text-decoration: none;
+    color: rgb(68, 68, 104);
+}
+.div2 ul li a:hover{
+    
+    color: rgb(34, 34, 77);
+}
+.div2 .add-product{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.div2 .add-product input{
+    margin: 5px;
+    font-family:  Tahoma;
+    font-size: 10px;
+}
+
+.div2 .add-product input[type=text]{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.div2 .add-product input[type=text]:focus{
+    border: 1px solid rgb(65, 63, 63);
+}
+.div2 .add-product input[type=number]{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+.div2 .add-product input[type=number]:focus{
+    border: 1px solid rgb(65, 63, 63);
+}
+.div2 .add-product textarea{
+    width: 80%;
+    margin: 5px;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Tahoma;
+    border-radius: 2px;
+    border: 1px solid gray;
+    text-align: center;
+
+}
+.div2 .add-product textarea:focus{
+    border: 1px solid rgb(65, 63, 63);
+}
+.div2 .add-product input[type=submit]{
+    padding: 10px;
+    background-color: honeydew;
+    border-radius: 2px;
+}
+.div2 .add-product input[type=submit]:hover{
+    
+    background-color: rgba(119, 155, 185, 0.438);
+    border: none;
+    cursor: pointer;
+}
+
+.div2 .styled-table {
+    border-collapse: collapse;
+    margin: 25px 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.div2 .styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+}
+.div2 .styled-table th,
+.div2 .styled-table td {
+    padding: 15px 40px;
+}
+.div2 .styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.div2 .styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.div2 .styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.div2 .styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.div2 .styled-table a{
+    text-decoration: none;
+    color: rgb(76, 115, 128);
+}
+.div2 .styled-table a:hover{
+    text-decoration: none;
+    color: rgb(20, 47, 56);
+}
